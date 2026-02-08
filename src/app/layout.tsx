@@ -16,6 +16,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "POS PENTA - Point of Sale System",
   description: "Sistem Point of Sale untuk manajemen penjualan dan inventory",
+  icons: [
+    {
+      rel: "icon",
+      url: "/logo_penta.png",
+      type: "image/png",
+    },
+    {
+      rel: "apple-touch-icon",
+      url: "/logo_penta.png",
+    },
+  ],
 };
 
 export default function RootLayout({
