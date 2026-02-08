@@ -78,7 +78,7 @@ export async function POST(request: NextRequest) {
         unit: unit || "pcs",
         unitWholesale: unitWholesale || null,
         unitConversion: parseFloat(unitConversion) || 1,
-        allowDecimal: jualKiloan || false,
+        jaulKiloan: jualKiloan || false,
         stock: parseFloat(stock) || 0,
         minStock: parseInt(minStock) || 5,
         expiryDate: expiryDate ? new Date(expiryDate) : null,
